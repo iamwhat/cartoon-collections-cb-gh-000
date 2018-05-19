@@ -21,4 +21,5 @@ def find_the_cheese(arr) # code an argument here
   arr.each do |item|
     return item if cheese_types.include?(item)
   end
+  nil
 end
